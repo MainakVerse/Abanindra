@@ -7,6 +7,7 @@ import Planet from "@/components/Planet"
 import SectionBorder from "@/components/SectionBorder";
 import SectionContent from "@/components/SectionContent";
 import { motion, useMotionValue,  useScroll, useSpring, useTransform } from "framer-motion";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import Typewriter from 'typewriter-effect';
 
@@ -93,9 +94,11 @@ export const Hero = () => {
             </h1>
             <p className="text-center text-lg md:text-xl mt-8 max-w-3xl mx-auto">Harness the power of AI to generate stunning images with Ababnindra</p>
             <div className="flex justify-center ">
-              <Button variant="secondary" className="mt-10">
-                Start Generating
-              </Button>
+              <Link href="/generation" passHref>
+  <Button variant="secondary" className="mt-10">
+    <span>Start Generating</span>
+  </Button>
+</Link>
             </div>
             <div className="relative isolate max-w-5xl  mx-auto">
               <div className="absolute left-1/2 top-0">

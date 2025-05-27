@@ -16,6 +16,7 @@ import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import Logo from "@/components/Logo";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const features = [
   "Prompt Based Image Generation",
@@ -89,7 +90,11 @@ export const Features = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="mt-16">Try it now</Button>
+                <Link href="/generation" passHref>
+  <Button variant="secondary" className="mt-10">
+    <span>Try It Now</span>
+  </Button>
+</Link>
               </div>
               <div className="flex justify-center">
                 <div className="size-[270px] md:size-[450px] relative flex flex-shrink-0">

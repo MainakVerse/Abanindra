@@ -5,6 +5,8 @@ import { useState } from "react";
 import SectionBorder from "@/components/SectionBorder";
 import SectionContent from "@/components/SectionContent";
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/Button";
 
 const images = [
   { id: 1, src: "/images/image1.png", alt: "Image 1", name: "Ghibli" },
@@ -50,6 +52,13 @@ export default function ImageSwitcherSection() {
                 className="object-cover rounded-xl"
               />
             </div>
+
+            {/* Start Generating Button */}
+            <Link href="/gallery" passHref>
+              <Button variant="secondary" className="mt-10 mx-auto block">
+                <span>Check Out Gallery</span>
+              </Button>
+            </Link>
           </SectionContent>
         </SectionBorder>
       </div>
