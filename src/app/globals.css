@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    :root {
+        --color-violet-400:theme('colors.indigo.400');
+        --color-fuchsia-400:theme('colors.blue.400');
+        --color-fuchsia-900:theme('colors.blue.900');
+        --color-amber-300:theme('colors.amber.300');
+        --color-teal-300:theme('colors.green.300');
+        --color-gray-950:theme('colors.gray.950');
+        --color-indigo-900:theme('colors.indigo.900');
+        --color-border:theme('colors.gray.200/30%');
+    
+    }
+    .border-gradient{
+        @apply border-2 border-transparent [background:linear-gradient(var(--color-gray-950),var(--color-gray-950))_padding-box,conic-gradient(from_45deg,var(--color-violet-400),var(--color-fuchsia-400),var(--color-amber-300),var(--color-teal-300),var(--color-violet-400))_border-box];
+    }
+
+    .absolute-center {
+        @apply absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2;
+    }
+}
