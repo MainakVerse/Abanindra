@@ -15,28 +15,28 @@ import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 export const testimonials = [
   {
     quote:
-      "Ababnindra has completely transformed the way we design. The AI image generator's ability to create beautiful images have saved us hours each week. It's now an indispensable part of our workflow.",
+      "Abanindra has completely transformed the way we design. The AI image generator's ability to create beautiful images have saved us hours each week. It's now an indispensable part of our workflow.",
     name: "Rudra Deka",
     title: "CTO, Lux Magazine",
     image: AshwinSantiago,
   },
   {
     quote:
-      "Ababnindra integrates effortlessly with our existing image generation styles, and the AI tool feels like a natural extension of our team. The responses are impressively accurate, and it's always learning from our interactions.",
+      "Abanindra integrates effortlessly with our existing image generation styles, and the AI tool feels like a natural extension of our team. The responses are impressively accurate, and it's always learning from our interactions.",
     name: "Utkarsh Chaturvedi",
     title: "CEO, Humax Synkrome",
     image: AlecWhitten,
   },
   {
     quote:
-      "Ababnindra's AI has elevated our customer service to a whole new level. Its real-time responses and personalized recommendations help us address client needs faster than ever. I can't imagine our support team without it.",
+      "Abanindra's AI has elevated our customer service to a whole new level. Its real-time responses and personalized recommendations help us address client needs faster than ever. I can't imagine our support team without it.",
     name: "Rimpi Deka",
     title: "CEO, Lux Magazine",
     image: ReneWells,
   },
   {
     quote:
-      "I've never seen a tool like Ababnindra. It's intuitive, responsive, and has helped us streamline projects that would normally take days. The AI capabilities are unmatched in terms of accuracy and speed.",
+      "I've never seen a tool like Abanindra. It's intuitive, responsive, and has helped us streamline projects that would normally take days. The AI capabilities are unmatched in terms of accuracy and speed.",
     name: "Nista Chaturvedi",
     title: "Interior Designer",
     image: MollieHall,
