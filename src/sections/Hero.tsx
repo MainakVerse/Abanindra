@@ -92,7 +92,7 @@ export const Hero = () => {
 
               
             </h1>
-            <p className="text-center text-lg md:text-xl mt-8 max-w-3xl mx-auto">Harness the power of AI to generate stunning images with Ababnindra</p>
+            <p className="text-center text-lg md:text-xl mt-8 max-w-3xl mx-auto">Harness the power of AI to generate stunning images with Abanindra</p>
             <div className="flex justify-center ">
               <Link href="/generation" passHref>
   <Button variant="secondary" className="mt-10">
